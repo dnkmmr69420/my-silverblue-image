@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+echo "Setting up nix, Enter sudo password to continue the setup"
+sudo echo "Continuing to the installation..."
 sleep 1
 bash /usr/share/ublue-os/nix/ublue-nix-install.sh
 sleep 1
