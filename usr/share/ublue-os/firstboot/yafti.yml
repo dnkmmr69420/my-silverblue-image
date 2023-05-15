@@ -55,7 +55,7 @@ screens:
       groups:
         Core GNOME Apps:
           description: Core system applications for the GNOME desktop environment.
-          default: true
+          default: false
           packages:
             - Calculator: org.gnome.Calculator
             - Calendar: org.gnome.Calendar
