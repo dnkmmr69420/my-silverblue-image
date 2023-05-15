@@ -13,6 +13,8 @@ ARG RECIPE
 # See issue #28 (https://github.com/ublue-os/startingpoint/issues/28).
 COPY usr /usr
 
+RUN chmod a+x /usr/share/ublue-os/nix/nix-setup.sh
+
 # Copy recipe.
 COPY ${RECIPE} /usr/share/ublue-os/recipe.yml
 
