@@ -75,6 +75,10 @@ rpm:
     # Remove the native firefox (from Fedora) in favor of the Flatpak.
     - firefox
     - firefox-langpacks
+    # removing some things because nix installs it for you
+    - distrobox
+    - htop
+    - toolbox
 
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
